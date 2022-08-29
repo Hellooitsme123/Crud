@@ -1,0 +1,22 @@
+body {
+    background: linear-gradient(45deg, #333 50%, #999 50%);
+    color: white;
+}
+button {
+    transition: all ease-in-out 0.5s;
+    border-radius: 15px;
+}
+button:hover {
+    transition: all ease-in-out 0.5s;
+    background: #555;
+    color: #999;
+}
+input {
+    border-radius: 15px;
+    border: 1px solid black;
+    transition: all ease-in-out 0.5s;
+}
+input:hover {
+    transition: all ease-in-out 0.5s;
+    background: #999;
+}

@@ -15,7 +15,7 @@ readvalue.onclick = function() {
     keys = Object.keys(localStorage);
     storagevalue.textContent = "";
     for (key of keys) {
-        storagevalue.innerHTML += key+": "+localStorage.getItem(key)+"<br>";
+        storagevalue.innerHTML += "<br>"+key+": "+localStorage.getItem(key)+"<br>";
     }
 }
 
